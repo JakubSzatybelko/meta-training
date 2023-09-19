@@ -3,7 +3,7 @@
     <NuxtPage />
   </div>
 </template>
-<script>
+<script setup>
 useHead({
   title: 'Machine Master',
   meta: [
