@@ -5,7 +5,7 @@
 </template>
 <script setup>
 const  theming= ref(null) 
-useSeoMeta({
+useServerSeoMeta({
   title: theming?.pageTitle || 'Machine Master',
   charset: 'utf-8',
   description:
