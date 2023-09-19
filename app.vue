@@ -4,6 +4,7 @@
   </div>
 </template>
 <script setup>
+const  theming= ref(null) 
 useHead({
   title: theming?.pageTitle || 'Machine Master',
   meta: [
