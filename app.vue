@@ -27,7 +27,7 @@ useHead({
       property: 'og:image',
       content:
         theming?.metaDataImage?.url ||
-        'https://postimg.cc/q6kk32wm',
+        'https://i.postimg.cc/kJ186YMD/featured-image.png',
     },
     { hid: 'og:title', property: 'og:title', content: theming?.pageTitle || '' },
     { hid: 'og:description', property: 'og:description', content: theming?.metaDataDescription || '' },
@@ -37,7 +37,7 @@ useHead({
       property: 'og:url',
       content:
         theming?.metaDataUrl ||
-        'https://postimg.cc/q6kk32wm',
+        'https://dev.moerschen.machinemaster.de/',
     },
   ],
   link: [{ rel: 'icon', type: 'image/x-icon', href: theming?.metaDataLogo?.url || '/favicon.svg' }],
