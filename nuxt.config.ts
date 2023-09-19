@@ -2,10 +2,4 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr:false,
-  app: {
-    head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
-    },
-  },
 })

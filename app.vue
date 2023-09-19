@@ -7,6 +7,8 @@
 useHead({
   title: 'Machine Master',
   meta: [
+    {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+    { name: 'charset', content: 'utf-8'},
     { name: 'description', content: 'elo' },
     { name: 'keywords', content: 'elo' },
     {
