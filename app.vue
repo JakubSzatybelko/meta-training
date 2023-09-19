@@ -27,7 +27,7 @@ useHead({
       property: 'og:image',
       content:
         theming?.metaDataImage?.url ||
-        'https://media.discordapp.net/attachments/1136207345559539794/1153329446523248741/jakubszatybelko_big_cool_tracktor_400163d3-9bf0-4265-b0c2-5b4099c35401.png?width=1365&height=1365',
+        'https://postimg.cc/q6kk32wm',
     },
     { hid: 'og:title', property: 'og:title', content: theming?.pageTitle || '' },
     { hid: 'og:description', property: 'og:description', content: theming?.metaDataDescription || '' },
@@ -37,7 +37,7 @@ useHead({
       property: 'og:url',
       content:
         theming?.metaDataUrl ||
-        'https://media.discordapp.net/attachments/1136207345559539794/1153329446523248741/jakubszatybelko_big_cool_tracktor_400163d3-9bf0-4265-b0c2-5b4099c35401.png?width=1365&height=1365',
+        'https://postimg.cc/q6kk32wm',
     },
   ],
   link: [{ rel: 'icon', type: 'image/x-icon', href: theming?.metaDataLogo?.url || '/favicon.svg' }],
@@ -52,7 +52,7 @@ useServerSeoMeta({
     theming?.metaDataTags ||
     'MachineMaster, Erntemaschinen, landwirtschaftliche Ausrüstung, landwirtschaftliche Maschinen, Händler, Maschinen kaufen, gefilterte Suche, Erntemaschinen kaufen, Mähdrescher, Traktoren, Feldhäcksler, Pflanzmaschinen, Dreschmaschinen, Erntewerkzeuge, Landmaschinenhändler, Landtechnik, Agrartechnik, gebrauchte Erntemaschinen, Neuheiten in der Erntetechnik, landwirtschaftliche Geräte, Anbaugeräte für Erntemaschinen, Ersatzteile für Erntemaschinen, professionelle Erntemaschinen, Hochleistungserntemaschinen, Landwirtschaftliche Maschinenhersteller, Erntemaschinenverleih',
   url: theming?.metaDataUrl || 'https://dev.moerschen.machinemaster.de/',
-  ogImage: theming?.metaDataImage?.url || 'https://media.discordapp.net/attachments/1136207345559539794/1153329446523248741/jakubszatybelko_big_cool_tracktor_400163d3-9bf0-4265-b0c2-5b4099c35401.png?width=1365&height=1365',
+  ogImage: theming?.metaDataImage?.url || 'https://postimg.cc/q6kk32wm',
   ogUrl: theming?.metaDataUrl || 'https://dev.moerschen.machinemaster.de/',
   ogTitle: theming?.pageTitle || 'Machine Master',
   ogDescription:
